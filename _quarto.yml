@@ -1,19 +1,62 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "thebiguiz"
+  title: "The Medium Quiz"
+  favicon: hexmedfly.png
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    logo: hexmedfly.png
+    brand:
+      href: index.qmd
+      image: hexmedfly.png
+    right:
+      - text: "Round 1 - Tephritids"
+        menu:
+          - tephritids.qmd
+          - tephritidsquiz.qmd
+      - text: "Round 2 - Sequencing Methods"
+        menu:
+          - sequencing.qmd
+          - sequencingquiz.qmd
+      - text: "Round 3 - Tephritid Microbiota Functions"
+        menu:
+          - tephritidfunction.qmd
+          - tephritidfunctionquiz.qmd
+          
+      - text: "Round 4 - Tephritid Top Trumps"
+        menu:
+          - tephritidtoptrumps.qmd
+
+          
+          
+          
+          
+          
+
+page-footer: |
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; font-size: 0.9em;">
+    <div style="text-align: center;">
+      <img src="hexmedfly.png" alt="Footer Logo" style="height:80px;"><br>
+      © 2025 Katie Millar · Built with <a href="https://quarto.org/">Quarto</a>
+    </div>
+    <div style="text-align: right;">
+      Made with <i class="fab fa-r-project"></i> and <a href="https://quarto.org/">Quarto</a><br>
+      <a href="https://github.com/katherinemillar02/microbiomeanalysis-website">Source at <i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: flatly
+      dark: darkly
     toc: true
-
-editor: visual
-
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    includes:
+      before-body: |
+        <header class="site-banner">
+          <img src="hexmedfly.png" alt="Site Banner" style="width:100%; height:auto;">
+        </header>

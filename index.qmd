@@ -1,18 +1,22 @@
 ---
-title: "The Chapman Lab Quiz"
+title: "The Quiz done in the Chapman Lab"
 ---
 
-## Rules:
+## WHAT IS THIS 
 
-#####  **1. BE HONEST. I will not be able to see your score, so at the end of each round, please tell me your score, and BE HONEST. if you do cheat, a life sized fruit fly will be under your bed tonight.** 
+Instead of presenting my work I thought I would make it a bit more interactive, with a quiz and some lessons. 
 
-#### 2. DON'T CHEAT. 
+Rules:
+
+1. BE HONEST. I will not be able to see your score, so at the end of each round, please tell me your score, and BE HONEST. if you do cheat, a life sized fruit fly will be under your bed tonight.
+
+2. DON'T CHEAT.
 
 How this will work:
 
 I will give you a very quick presentation on the round, we will then have the quiz.
 
-#### The Rounds:  
+The Rounds:
 
 SEQUENCING
 

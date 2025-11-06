@@ -1,0 +1,68 @@
+---
+title: "Tephritids"
+editor: visual
+---
+
+For this round, there will be a soft introduction to Tephritds. One of the most beautiful insect families to exist.
+
+-   The family **Tephritidae** includes over 5,000 described species worldwide.
+
+-   These are the "true fruit flies" unlike with Drosophilidae like *Drosophila melanogaster,* apparently known as the "fake fruit flies".
+
+-   Female Tephritids possess a well-developed ovipositor used to puncture fruit and deposit eggs beneath the skin.
+
+-   Species are a mix of monophagous, and polyphagous.
+
+-   Not all are pests, but the map below demonstrates distribution of some of the Tephritid pests.
+
+```{r, echo=FALSE, message=FALSE}
+library(leaflet)
+
+locations <- data.frame(
+  species = c("Ceratitis capitata", "Bactrocera dorsalis", "Ceratitis cosyra", "Ceratitis capitata", "Bactrocera tryoni"),
+  country = c("Kenya", "Uganda", "Tanzania", "Western Australia", "Queensland"),
+  lat = c(-1.3, 0.3, -6.8, -31.95, -22),
+  lng = c(34.8, 32.5, 39.2, 115.86, 144),
+  abundance = c(50, 80, 30, 70, 100)
+)
+
+species_colors <- c(
+  "Ceratitis capitata" = "red",
+  "Bactrocera dorsalis" = "blue",
+  "Ceratitis cosyra" = "green",
+  "Bactrocera tryoni" = "purple"
+)
+
+locations$color <- species_colors[locations$species]
+
+legend_colors <- species_colors
+legend_labels <- names(species_colors)
+
+leaflet(data = locations) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addCircleMarkers(
+    lng = ~lng,
+    lat = ~lat,
+    color = ~color,
+    fillColor = ~color,
+    fillOpacity = 0.7,
+    radius = ~sqrt(abundance),
+    popup = ~paste0(
+      "<b>Species:</b> ", species, "<br>",
+      "<b>Country:</b> ", country, "<br>",
+      "<b>Abundance:</b> ", abundance
+    ),
+    label = ~species,
+    clusterOptions = markerClusterOptions()
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    colors = legend_colors,
+    labels = legend_labels,
+    title = "Tephritid Species"
+  )
+
+
+```
+
+-   As you might be able to tell, these pests are distributed in the warmer countries.
