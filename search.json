@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "tephritidfunction.html",
+    "href": "tephritidfunction.html",
+    "title": "Tephritid Microbe Functions",
+    "section": "",
+    "text": "Tephritid flies host specialized microbial partners that play vital roles in their physiology and ecology.\n\nThese symbionts contribute to nutrient acquisition, digestion, and development—helping their hosts thrive across a range of environments.\n\nBelow are key examples of functionally important microbial associations identified in major Tephritid species:\n\n\n\n\n\nNitrogen metabolism\n\nObligate symbiont Ca. Erwinia dacicola\n\nAccelerated larval development\n(Campos et al., 2022)\n\n\n\n\n\n\nEnhanced development and longevity\n\nCarbon and nitrogen metabolism\n\nSuppression of pathogenic Pseudomonas\n(Behar et al., 2008)\n\n\n\n\n\n\nFacultative symbiosis with Enterobacter and Klebsiella\n\nPurine degradation\n\nNitrogen provisioning\n(Ren et al., 2022)"
+  },
+  {
+    "objectID": "tephritidfunction.html#why-do-we-care-about-the-tephritid-microbiota",
+    "href": "tephritidfunction.html#why-do-we-care-about-the-tephritid-microbiota",
+    "title": "Tephritid Microbe Functions",
+    "section": "",
+    "text": "Tephritid flies host specialized microbial partners that play vital roles in their physiology and ecology.\n\nThese symbionts contribute to nutrient acquisition, digestion, and development—helping their hosts thrive across a range of environments.\n\nBelow are key examples of functionally important microbial associations identified in major Tephritid species:\n\n\n\n\n\nNitrogen metabolism\n\nObligate symbiont Ca. Erwinia dacicola\n\nAccelerated larval development\n(Campos et al., 2022)\n\n\n\n\n\n\nEnhanced development and longevity\n\nCarbon and nitrogen metabolism\n\nSuppression of pathogenic Pseudomonas\n(Behar et al., 2008)\n\n\n\n\n\n\nFacultative symbiosis with Enterobacter and Klebsiella\n\nPurine degradation\n\nNitrogen provisioning\n(Ren et al., 2022)"
+  },
+  {
+    "objectID": "tephritidfunction.html#sit-microbiota",
+    "href": "tephritidfunction.html#sit-microbiota",
+    "title": "Tephritid Microbe Functions",
+    "section": "SIT × Microbiota",
+    "text": "SIT × Microbiota\n\nThe Sterile Insect Technique (SIT) is a powerful, environmentally friendly method for pest control that relies on the mass release of sterilised males to suppress wild populations through infertile matings.\n\nHowever, irradiation and mass-rearing conditions can disrupt the natural gut microbiota of flies—potentially reducing male fitness, competitiveness, and lifespan.\nMicrobiota restoration through probitoics could enhance SIT effectiveness.\nBy supplementing or reintroducing beneficial bacteria (e.g., Klebsiella, Enterobacter, or genera of the Enterobacteriacae family), it may be possible to:\nImprove sterile male mating competitiveness\n\nIncrease survival and flight ability post-irradiation\n\nSupport nutrient assimilation and energy metabolism during stress\n\nReduce handling stress and mortality during release\n\nThis shows the importance of “SIT × Microbiota” in using the microbiota for pest management; optimising the sterile insect performance."
+  },
+  {
+    "objectID": "sequencing.html",
+    "href": "sequencing.html",
+    "title": "Microbial Sequencing of Flies",
+    "section": "",
+    "text": "A fly’s microbiota can be sequenced using several approaches, including:\n\nShort-read 16S rRNA sequencing\nLong-read 16S rRNA sequencing\nShotgun metagenomic sequencing\n\nShort-read 16S rRNA sequencing:\n\nTargets and sequences short variable regions of the 16S rRNA gene (e.g., V3–V4) -\nUses sequencing platforms such as Illumina. - It provides high-throughput, cost-effective profiling of bacterial community composition but limited taxonomic resolution, often to the genus level.\n\nLong-read 16S rRNA sequencing:\n\nSequences the full-length 16S rRNA gene using technologies like Oxford Nanopore or PacBio.\nThis approach improves taxonomic resolution, often enabling species- or even strain-level identification, though with higher cost and potential sequencing error rates.\nA problem with some Medfly papers is that despite use of long-read sequencing, some results only show to the genus level, this is due to a lack of update in taxonomic classifiers.\n\nShotgun metagenomic sequencing:\n\nSequences all genomic DNA present in a sample, not just the 16S rRNA gene.\nIt allows for comprehensive profiling of microbial diversity (including bacteria, archaea, fungi, and viruses) and provides insights into functional gene content, metabolic pathways, and strain-level variation.\n\nSequencing of the Medfly gut microbiota:\n\nThe majority of Medfly sequencing studies use short-read 16S, there are only a few to have used long read sequencing.\nThis year, Mason et al. 2025 have published two studies that have sequenced the Medfly microbiota, however their results only go to the genus level.\nThere have been no studies in Medfly, or even Tephritids, to have used metagenomics.\nWe plan to do a pilot metagenomic study: with a small sample size to establish if we get any microbial DNA, or to see if Medfly DNA overrides this."
+  },
+  {
+    "objectID": "sequencingquiz.html",
+    "href": "sequencingquiz.html",
+    "title": "Microbial Sequencing Quiz",
+    "section": "",
+    "text": "Question 1: What gene is commonly targeted for bacterial community profiling?\n\n\n A. COI  B. 18S rRNA  C. 16S rRNA  D. ITS Submit\n\n\n\n\n\nQuestion 2: Which sequencing approach provides the highest functional resolution?\n\n\n A. Short-read 16S rRNA sequencing  B. Long-read 16S rRNA sequencing  C. Shotgun metagenomic sequencing  D. Amplicon-based metatranscriptomics Submit\n\n\n\n\n\nQuestion 3: What is a key advantage of long-read 16S rRNA sequencing compared to short-read 16S?\n\n\n A. Lower cost per base  B. Higher taxonomic resolution across the full 16S gene  C. Faster sequencing speed  D. Detects RNA viruses Submit\n\n\n\n\n\nQuestion 4: I took you through a couple of papers in Medfly that have used long-read sequencing. What’s the main issue with these studies?\n\n\n A. The sequencing depth was too high, leading to data redundancy.  B. Despite using long reads, the taxonomic classifiers couldn’t resolve taxa beyond the genus level.  C. Long reads introduced large sequencing errors that prevented assembly.  D. The studies focused only on viral DNA rather than bacterial communities. Submit"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Quiz done in the Chapman Lab",
+    "section": "",
+    "text": "Instead of presenting my work I thought I would make it a bit more interactive, with a quiz and some lessons.\nRules:\n\nBE HONEST. I will not be able to see your score, so at the end of each round, please tell me your score, and BE HONEST. if you do cheat, a life sized fruit fly will be under your bed tonight.\nDON’T CHEAT.\n\nHow this will work:\nI will give you a very quick presentation on the round, we will then have the quiz.\nThe Rounds:\nSEQUENCING\nOVIPOSITORS"
+  },
+  {
+    "objectID": "index.html#what-is-this",
+    "href": "index.html#what-is-this",
+    "title": "The Quiz done in the Chapman Lab",
+    "section": "",
+    "text": "Instead of presenting my work I thought I would make it a bit more interactive, with a quiz and some lessons.\nRules:\n\nBE HONEST. I will not be able to see your score, so at the end of each round, please tell me your score, and BE HONEST. if you do cheat, a life sized fruit fly will be under your bed tonight.\nDON’T CHEAT.\n\nHow this will work:\nI will give you a very quick presentation on the round, we will then have the quiz.\nThe Rounds:\nSEQUENCING\nOVIPOSITORS"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Rules:\n\nBE HONEST. I will not be able to see your score, so at the end of each round, please tell me your score, and BE HONEST. if you do cheat, a life sized fruit fly will be under your bed tonight.\nDON’T CHEAT.\n\nHow this will work:\nI will give you a very quick presentation on the round, we will then have the quiz.\nThe Rounds:\nSEQUENCING\nOVIPOSITORS"
+  },
+  {
+    "objectID": "tephritidfunctionquiz.html",
+    "href": "tephritidfunctionquiz.html",
+    "title": "Tephritid Microbe Functions Quiz",
+    "section": "",
+    "text": "Question 1: In Ceratitis capitata, what is one documented benefit of adding Enterobacteriaceae to the diet?\n\n\n A. Decreased lifespan and fertility  B. Enhanced development and mating success  C. Increased larval mortality  D. Reduced nitrogen metabolism Submit\n\n\n\n\n\n\nQuestion 2: Which microbial genera in Rhagoletis pomonella are involved in purine degradation?\n\n\n A. Pseudomonas and Serratia  B. Enterobacter and Klebsiella  C. Lactobacillus and Acetobacter  D. Candidatus Erwinia and Enterococcus Submit\n\n\n\n\n\n\nQuestion 3: What is one challenge faced in the Sterile Insect Technique (SIT) related to microbiota?\n\n\n A. Microbes become pathogenic post-irradiation  B. Irradiation and mass-rearing can disrupt gut microbiota  C. Sterile males overproduce beneficial bacteria  D. Female flies reject sterile males due to microbial odour Submit\n\n\n\n\n\n\nQuestion 4: How might probiotic supplementation improve SIT outcomes?\n\n\n A. By increasing stress and mortality rates  B. By restoring beneficial gut bacteria to enhance fitness  C. By sterilising females through microbial competition  D. By reducing energy metabolism efficiency Submit"
+  },
+  {
+    "objectID": "tephritidtoptrumps.html",
+    "href": "tephritidtoptrumps.html",
+    "title": "Tephritid Top Trumps",
+    "section": "",
+    "text": "How to play\nSo this doesn’t last forever. Find a teammate and limit yourself to 4 minute play. The winner at the end of this is the winner.\n\n\n\n\n\nA female Tephritid using her ovipositor to pierce fruit."
+  },
+  {
+    "objectID": "tephritidsquiz.html",
+    "href": "tephritidsquiz.html",
+    "title": "Tephritids Quiz",
+    "section": "",
+    "text": "Question 1: The family Tephritidae includes approximately how many described species worldwide?\n\n\n A. 500  B. 5,000  C. 50,000  D. 500,000 Submit\n\n\n\n\n\n\nQuestion 2: What are Tephritids commonly known as?\n\n\n A. Fake fruit flies  B. True fruit flies  C. Seed beetles  D. Flower midges Submit\n\n\n\n\n\n\nQuestion 3: Which of the following species does NOT belong to the family Tephritidae?\n\n\n A. Ceratitis capitata  B. Bactrocera dorsalis  C. Ceratitis cosyra  D. Drosophila melanogaster Submit\n\n\n\n\n\n\nQuestion 4: What is the main function of the female Tephritid’s ovipositor?\n\n\n A. To extract nectar from flowers  B. To puncture fruit and deposit eggs beneath the skin  C. To produce pheromones for mating  D. To digest fruit pulp Submit\n\n\n\n\n\n\nQuestion 5: Tephritid species can be described as being:\n\n\n A. Only monophagous  B. Only polyphagous  C. Either monophagous or polyphagous  D. Neither monophagous nor polyphagous Submit\n\n\n\n\n\n\nQuestion 6: According to the distribution map, Tephritid pests are most commonly found in:\n\n\n A. Polar regions  B. Temperate countries  C. Warmer countries  D. High-altitude environments Submit\n\n\n\n\n\n\nQuestion 7: Which Tephritid species was listed as being found in Queensland?\n\n\n A. Bactrocera dorsalis  B. Ceratitis cosyra  C. Ceratitis capitata  D. Bactrocera tryoni Submit\n\n\n\n\n\n\nQuestion 8: The interactive map uses circle size to represent which variable?\n\n\n A. Wing length  B. Fruit size  C. Species abundance  D. Temperature range Submit\n\n\n\n\n\n\nQuestion 9: The “true fruit flies” belong to Tephritidae. Which family contains the so-called “fake fruit flies” like Drosophila melanogaster?\n\n\n A. Calliphoridae  B. Drosophilidae  C. Muscidae  D. Syrphidae Submit\n\n\n\n\n\n\nQuestion 10: Which of the following statements about Tephritids is true?\n\n\n A. All Tephritids are serious agricultural pests.  B. Female Tephritids lack a specialized ovipositor.  C. Some Tephritids are beneficial, while others are pests.  D. Tephritids are primarily found in cold, mountainous regions. Submit"
+  },
+  {
+    "objectID": "tephritids.html",
+    "href": "tephritids.html",
+    "title": "Tephritids",
+    "section": "",
+    "text": "For this round, there will be a soft introduction to Tephritds. One of the most beautiful insect families to exist.\n\nThe family Tephritidae includes over 5,000 described species worldwide.\nThese are the “true fruit flies” unlike with Drosophilidae like Drosophila melanogaster, apparently known as the “fake fruit flies”.\nFemale Tephritids possess a well-developed ovipositor used to puncture fruit and deposit eggs beneath the skin.\nSpecies are a mix of monophagous, and polyphagous.\nNot all are pests, but the map below demonstrates distribution of some of the Tephritid pests.\n\n\n\n\n\n\n\n\nAs you might be able to tell, these pests are distributed in the warmer countries."
+  }
+]
