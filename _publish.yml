@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: a71f42cb-f73f-469f-ba38-b61d44551042
+      url: 'https://katherinemillar.quarto.pub/fruitflyquiz'

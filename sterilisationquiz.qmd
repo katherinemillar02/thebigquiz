@@ -1,16 +1,16 @@
 ---
-title: "Tephritids Quiz"
+title: "Surafce sterilisation of flies"
 format: html
 ---
 
-**Question 1: The family Tephritidae includes approximately how many described species worldwide?**
+**Question 1: What is surface sterilisation in this context?**
 
 ::: {=html}
 <form id="q1">
-  <input type="radio" name="q1" value="a"> A. 500<br>
-  <input type="radio" name="q1" value="b"> B. 5,000<br>
-  <input type="radio" name="q1" value="c"> C. 50,000<br>
-  <input type="radio" name="q1" value="d"> D. 500,000<br><br>
+  <input type="radio" name="q1" value="a"> A. Washing the bench surface in the lab so you don't contaminate the fly in microbiota experiments.  <br>
+  <input type="radio" name="q1" value="b"> B. Washing the surface of the fly to remove external microbes <br>
+  <input type="radio" name="q1" value="c"> C. Putting fly in bath  <br>
+  <input type="radio" name="q1" value="d"> D. Washing the outside of the cage which you will collect flies on, to not infect its mcirobiota <br><br>
   <button type="button" onclick="checkAnswer('q1','b')">Submit</button>
 </form>
 <div id="result-q1" style="margin-top:1em;font-weight:bold;"></div>

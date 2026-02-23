@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "The Medium Quiz"
+  title: "The Quiz of Fruit Flies and Microbiotas"
   favicon: hexmedfly.png
   navbar:
     logo: hexmedfly.png
@@ -11,10 +11,9 @@ website:
       href: index.qmd
       image: hexmedfly.png
     right:
-      - text: "Round 1 - Tephritids"
+      - text: "Introduction to fruit flies"
         menu:
-          - tephritids.qmd
-          - tephritidsquiz.qmd
+          - fliesquiz.qmd
       - text: "Round 2 - Sequencing Methods"
         menu:
           - sequencing.qmd
@@ -49,7 +48,7 @@ page-footer: |
 format:
   html:
     theme:
-      light: flatly
+      light: minty
       dark: darkly
     toc: true
     include-in-header:

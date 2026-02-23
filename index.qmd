@@ -1,23 +1,21 @@
 ---
-title: "The Quiz done in the Chapman Lab"
+title: "Host microbe symbioses in pest insects Lab Meeting 2026" 
 ---
 
-## WHAT IS THIS 
+## Introduction
 
-Instead of presenting my work I thought I would make it a bit more interactive, with a quiz and some lessons. 
+Hello again, today I will be showing you what I have been doing for my research through a presentation - and I will make it interactive through a mini quiz. This will be on this site.
 
-Rules:
+You will be given (or have been given) a randomly selected sticker, either representing a *Ceratitis capitata* or a *Drosophila melanogaster.* This is your team, you will answer the multiple choise questions at the end of each quiz these will be added together depending on the team.
 
-1. BE HONEST. I will not be able to see your score, so at the end of each round, please tell me your score, and BE HONEST. if you do cheat, a life sized fruit fly will be under your bed tonight.
+The winning team gets... something.
 
-2. DON'T CHEAT.
+**Rules:**
 
-How this will work:
+-   Please don't click any of the quiz question tabs until it is time to do the quiz.
 
-I will give you a very quick presentation on the round, we will then have the quiz.
+-    When you are in the multiple choice, please only try once, once you have submitted do not try again.
 
-The Rounds:
+-   Do not leave or refresh the page, you will lose your score.
 
-SEQUENCING
-
-OVIPOSITORS
+-   Your total score will be at the bottom of the page.
