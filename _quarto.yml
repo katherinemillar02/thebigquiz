@@ -11,21 +11,14 @@ website:
       href: index.qmd
       image: hexmedfly.png
     right:
-      - text: "Introduction to fruit flies"
-        menu:
-          - fliesquiz.qmd
-      - text: "Round 2 - Sequencing Methods"
-        menu:
-          - sequencing.qmd
-          - sequencingquiz.qmd
-      - text: "Round 3 - Tephritid Microbiota Functions"
-        menu:
-          - tephritidfunction.qmd
-          - tephritidfunctionquiz.qmd
-          
-      - text: "Round 4 - Tephritid Top Trumps"
-        menu:
-          - tephritidtoptrumps.qmd
+      - text: "1. Flies Quiz"
+        href: fliesquiz.qmd
+      - text: "2. Surface Sterilisation Quiz"
+        href: sterilisationquiz.qmd
+      - text: "3. Medfly Gut Quiz"
+        href: gutquiz.qmd
+      - text: "4. Shotgun Metagenomics Quiz"
+        href: metagenomicsquiz.qmd 
 
           
           

@@ -1,5 +1,5 @@
 ---
-title: "Surafce sterilisation of flies"
+title: "2. Surface sterilisation of flies"
 format: html
 ---
 
@@ -18,14 +18,14 @@ format: html
 
 ---
 
-**Question 2: What are Tephritids commonly known as?**
+**Question 2: What is a difference between bleach and ethanol?**
 
 ::: {=html}
 <form id="q2">
-  <input type="radio" name="q2" value="a"> A. Fake fruit flies<br>
-  <input type="radio" name="q2" value="b"> B. True fruit flies<br>
-  <input type="radio" name="q2" value="c"> C. Seed beetles<br>
-  <input type="radio" name="q2" value="d"> D. Flower midges<br><br>
+  <input type="radio" name="q2" value="a"> A.Ethanol destroys DNA, while bleach leaves DNA intact. <br>
+  <input type="radio" name="q2" value="b"> B. Bleach destroys DNA, while ethanol does not destroy DNA.<br>
+  <input type="radio" name="q2" value="c"> C.Both bleach and ethanol preserve DNA while killing microbes. <br>
+  <input type="radio" name="q2" value="d"> D. Bleach works only on bacteria, ethanol works only on viruses<br><br>
   <button type="button" onclick="checkAnswer('q2','b')">Submit</button>
 </form>
 <div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>

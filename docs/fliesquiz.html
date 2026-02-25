@@ -86,49 +86,22 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-introduction-to-fruit-flies" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Introduction to fruit flies</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-introduction-to-fruit-flies">    
-        <li>
-    <a class="dropdown-item" href="./fliesquiz.html" rel="" target="">
- <span class="dropdown-text">1. Fruit flies.</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="./fliesquiz.html" rel="" target="" aria-current="page">
+ <span class="menu-text">1. Flies Quiz</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-round-2---sequencing-methods" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Round 2 - Sequencing Methods</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-round-2---sequencing-methods">    
-        <li class="dropdown-header">sequencing.qmd</li>
-        <li>
-    <a class="dropdown-item" href="./sequencingquiz.html" rel="" target="">
- <span class="dropdown-text">Microbial Sequencing Quiz</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./sterilisationquiz.html" rel="" target="">
+ <span class="menu-text">2. Surface Sterilisation Quiz</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-round-3---tephritid-microbiota-functions" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Round 3 - Tephritid Microbiota Functions</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-round-3---tephritid-microbiota-functions">    
-        <li class="dropdown-header">tephritidfunction.qmd</li>
-        <li>
-    <a class="dropdown-item" href="./tephritidfunctionquiz.html" rel="" target="">
- <span class="dropdown-text">Tephritid Microbe Functions Quiz</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./gutquiz.html" rel="" target="">
+ <span class="menu-text">3. Medfly Gut Quiz</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-round-4---tephritid-top-trumps" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Round 4 - Tephritid Top Trumps</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-round-4---tephritid-top-trumps">    
-        <li class="dropdown-header">tephritidtoptrumps.qmd</li>
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./metagenomicsquiz.html" rel="" target="">
+ <span class="menu-text">4. Shotgun Metagenomics Quiz</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -212,9 +185,27 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Question 4: Why are Medflies the more harsh Tephritids?</strong></p>
 <div class="{=html}">
 <form id="q4">
-<input type="radio" name="q4" value="a"> A. They can survive in cooler temperatures compared to other Tephritids .<br> <input type="radio" name="q4" value="b"> B. Despite using long reads, the taxonomic classifiers couldn’t resolve taxa beyond the genus level.<br> <input type="radio" name="q4" value="c"> C. Long reads introduced large sequencing errors that prevented assembly.<br> <input type="radio" name="q4" value="d"> D. They can survive in cooler temperatures compared to other Tephritids.<br><br> <button type="button" onclick="checkAnswer('q4','d')">Submit</button>
+<input type="radio" name="q4" value="a"> A. Because they have the longest ovipositors.<br> <input type="radio" name="q4" value="b"> B. Despite using long reads, the taxonomic classifiers couldn’t resolve taxa beyond the genus level.<br> <input type="radio" name="q4" value="c"> C. Long reads introduced large sequencing errors that prevented assembly.<br> <input type="radio" name="q4" value="d"> D. They can survive in cooler temperatures compared to other Tephritids.<br><br> <button type="button" onclick="checkAnswer('q4','d')">Submit</button>
 </form>
 <div id="result-q4" style="margin-top:1em;font-weight:bold;">
+
+</div>
+</div>
+<p><strong>Question 5: What’s bigger, a Medfly or a House Fly?</strong></p>
+<div class="{=html}">
+<form id="q5">
+<input type="radio" name="q5" value="a"> A Medfly <br> <input type="radio" name="q5" value="b"> B. House Fly <br> <button type="button" onclick="checkAnswer('q4','a')">Submit</button>
+</form>
+<div id="result-q5" style="margin-top:1em;font-weight:bold;">
+
+</div>
+</div>
+<p><strong>Question 6: What size can a Medfly larvae grow to?</strong></p>
+<div class="{=html}">
+<form id="q6">
+<input type="radio" name="q6" value="a"> A.0.8 inches.<br> <input type="radio" name="q6" value="b"> B.0.6 inches.<br> <input type="radio" name="q6" value="c"> C.0.4 inches.<br> <input type="radio" name="q6" value="d"> D.0.2 inches.<br><br> <button type="button" onclick="checkAnswer('q6','c')">Submit</button>
+</form>
+<div id="result-q6" style="margin-top:1em;font-weight:bold;">
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "Microbial Sequencing Quiz"
+title: "4. Metagenomics quiz"
 format: html
 ---
 

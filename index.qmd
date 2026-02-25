@@ -10,11 +10,11 @@ You will be given (or have been given) a randomly selected sticker, either repre
 
 The winning team gets... something.
 
-**Rules:**
+## **Rules:**
 
 -   Please don't click any of the quiz question tabs until it is time to do the quiz.
 
--    When you are in the multiple choice, please only try once, once you have submitted do not try again.
+-   When you are in the multiple choice, please only try once, once you have submitted do not try again.
 
 -   Do not leave or refresh the page, you will lose your score.
 
