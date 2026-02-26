@@ -1,5 +1,5 @@
 ---
-title: "2. Surface sterilisation of flies"
+title: "2. Surface Sterilisation Quiz"
 format: html
 ---
 
@@ -35,15 +35,15 @@ format: html
 
 ---
 
-**Question 3: ?**
+**Question 3: How do we (in the Chapman group) give the Medfly a wash?**
 
 ::: {=html}
 <form id="q3">
-  <input type="radio" name="q3" value="a"> A . <br>
-  <input type="radio" name="q3" value="b"> B. .<br>
-  <input type="radio" name="q3" value="c"> C <br>
-  <input type="radio" name="q3" value="d"> D. <br><br>
-  <button type="button" onclick="checkAnswer('q3','b')">Submit</button>
+  <input type="radio" name="q3" value="a"> A. Dunk it in ethanol for 1 minute, followed by 3x 30 seconds PBS washes. <br>
+  <input type="radio" name="q3" value="b"> B. Dunk it in ethanol for 30 seconds, followed by 3x 30 seconds PBS washes.<br>
+  <input type="radio" name="q3" value="c"> C. Dunk it in bleach for 1 minute, followed by 3x 30 seconds PBS washes <br>
+  <input type="radio" name="q3" value="d"> D. Dunk it in bleach for 30 seconds, followed by 3x 30 seconds PBS washes.<br><br>
+  <button type="button" onclick="checkAnswer('q3','c')">Submit</button>
 </form>
 <div id="result-q3" style="margin-top:1em;font-weight:bold;"></div>
 :::
@@ -52,15 +52,15 @@ format: html
 
 ---
 
-**Question 4: ?**
+**Question 4: What might happen if we left the fly in the "sterilising" solution for too long?**
 
 ::: {=html}
-<form id="q3">
-  <input type="radio" name="q4" value="a"> A . <br>
-  <input type="radio" name="q4" value="b"> B. .<br>
-  <input type="radio" name="q4" value="c"> C <br>
-  <input type="radio" name="q4" value="d"> D. <br><br>
-  <button type="button" onclick="checkAnswer('q4','')">Submit</button>
+<form id="q4">
+  <input type="radio" name="q4" value="a"> A. The fly might wake up and fly away.<br>
+  <input type="radio" name="q4" value="b"> B. The fly could become larger and easier to see.<br>
+  <input type="radio" name="q4" value="c"> C. The wings might change colour permanently.<br>
+  <input type="radio" name="q4" value="d"> D. The fly’s body could become damaged or too fragile to dissect properly.<br><br>
+  <button type="button" onclick="checkAnswer('q4','d')">Submit</button>
 </form>
 <div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
 :::
@@ -69,15 +69,14 @@ format: html
 
 ---
 
-**Question 5: ?**
+**Question 5: Scenario: A Medfly has been taken straight from its cage, is then anesthesised and put in liquid nitrogen, and then the -80C. We take this fly from the -80m allow it to thaw, then put it in  sterile PBS for 30 seconds, and repeat this 3x with 3 different sterile PBS washes. We then pick up the fly with sterile forceps and spread it on a sterile LB plate, we leave this plate to incubate. What is likely to grow?**
 
 ::: {=html}
-<form id="q3">
-  <input type="radio" name="q5" value="a"> A . <br>
-  <input type="radio" name="q5" value="b"> B. .<br>
-  <input type="radio" name="q5" value="c"> C <br>
-  <input type="radio" name="q5" value="d"> D. <br><br>
-  <button type="button" onclick="checkAnswer('q5','')">Submit</button>
+<form id="q5">
+  <input type="radio" name="q5" value="a"> A. The plate is likely to grow bacteria but only because there's bits of fly on it. <br>
+  <input type="radio" name="q5" value="b"> B. If the experiment works, then nothing as the fly has been washed. <br>
+  <input type="radio" name="q5" value="c"> C. The plate is likely to grow bacteria because the fly has not been washed.  <br>
+  <button type="button" onclick="checkAnswer('q5','c')">Submit</button>
 </form>
 <div id="result-q5" style="margin-top:1em;font-weight:bold;"></div>
 :::
@@ -90,7 +89,7 @@ format: html
 ```{=html}
 <script>
 let score = 0;
-let total = 10; // total number of questions
+let total = 5; // total number of questions
 let answered = {};
 
 function checkAnswer(id, correct) {
@@ -104,17 +103,17 @@ function checkAnswer(id, correct) {
   }
 
   if (answered[id]) {
-    result.textContent = "ℹ️ You’ve already answered this question.";
+    result.textContent = "You’ve already answered this question.";
     result.style.color = "gray";
     return;
   }
 
   if (answer.value === correct) {
-    result.textContent = "✅ Correct!";
+    result.textContent = "Correct!";
     result.style.color = "green";
     score++;
   } else {
-    result.textContent = "❌ Incorrect.";
+    result.textContent = "Incorrect.";
     result.style.color = "red";
   }
 

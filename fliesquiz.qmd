@@ -1,5 +1,5 @@
 ---
-title: "1. Fruit flies."
+title: "1. Fruit Flies Quiz."
 format: html
 ---
 
@@ -23,9 +23,6 @@ knitr::include_graphics("2.jpg")
   <button type="button" onclick="checkAnswer('q1','a')">Submit</button>
 </form>
 <div id="result-q1" style="margin-top:1em;font-weight:bold;"></div>
-
-
-
 :::
 
 
@@ -36,7 +33,7 @@ knitr::include_graphics("2.jpg")
   <input type="radio" name="q2" value="a"> A. They have the highest fitness <br>
   <input type="radio" name="q2" value="b"> B. Being colourful means they are better at being sneaky <br>
   <input type="radio" name="q2" value="c"> C. The females use their ovipositor to lay their eggs in the fruit, where larvae develop <br>
-  <input type="radio" name="q2" value="d"> D. They're bigger than Drosophila, so they can do more <br><br>
+  <input type="radio" name="q2" value="d"> D. They're bigger than *Drosophilia*, so they can do more <br><br>
   <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
 </form>
 <div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>
@@ -72,15 +69,16 @@ knitr::include_graphics("2.jpg")
 
 
 **Question 5: Where did Medflies originate?**
+
 ::: {=html}
-<form id="q4">
-  <input type="radio" name="q5" value="a"> A. Africa .<br>
+<form id="q5">
+  <input type="radio" name="q5" value="a"> A. Africa.<br>
   <input type="radio" name="q5" value="b"> B. Antartica.<br>
-  <input type="radio" name="q5" value="c"> C. Brussels .<br>
+  <input type="radio" name="q5" value="c"> C. Brussels.<br>
   <input type="radio" name="q5" value="d"> D. Australia.<br><br>
-  <button type="button" onclick="checkAnswer('q4','a')">Submit</button>
+  <button type="button" onclick="checkAnswer('q5','a')">Submit</button>
 </form>
-<div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
+<div id="result-q5" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
 
@@ -90,7 +88,7 @@ knitr::include_graphics("2.jpg")
 ```{=html}
 <script>
 let score = 0;
-let total = 4; // total number of questions
+let total = 5; // total number of questions
 let answered = {}; // track which questions have been answered to avoid double scoring
 
 function checkAnswer(id, correct) {

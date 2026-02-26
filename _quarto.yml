@@ -11,13 +11,13 @@ website:
       href: index.qmd
       image: hexmedfly.png
     right:
-      - text: "1. Flies Quiz"
+      - text: "1. Fruit Flies Quiz."
         href: fliesquiz.qmd
-      - text: "2. Surface Sterilisation Quiz"
+      - text: "2. Surface Sterilisation Quiz."
         href: sterilisationquiz.qmd
-      - text: "3. Medfly Gut Quiz"
+      - text: "3. Medfly Gut Quiz."
         href: gutquiz.qmd
-      - text: "4. Shotgun Metagenomics Quiz"
+      - text: "4. Microbial Analysis Quiz."
         href: metagenomicsquiz.qmd 
 
           

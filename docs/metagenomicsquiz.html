@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Quiz of Fruit Flies and Microbiotas - 4. Metagenomics quiz</title>
+<title>The Quiz of Fruit Flies and Microbiotas - 4. Microbial Analysis Quiz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,19 +88,19 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./fliesquiz.html" rel="" target="">
- <span class="menu-text">1. Flies Quiz</span></a>
+ <span class="menu-text">1. Fruit Flies Quiz.</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./sterilisationquiz.html" rel="" target="">
- <span class="menu-text">2. Surface Sterilisation Quiz</span></a>
+ <span class="menu-text">2. Surface Sterilisation Quiz.</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./gutquiz.html" rel="" target="">
- <span class="menu-text">3. Medfly Gut Quiz</span></a>
+ <span class="menu-text">3. Medfly Gut Quiz.</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./metagenomicsquiz.html" rel="" target="" aria-current="page">
- <span class="menu-text">4. Shotgun Metagenomics Quiz</span></a>
+ <span class="menu-text">4. Microbial Analysis Quiz.</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">4. Metagenomics quiz</h1>
+<h1 class="title">4. Microbial Analysis Quiz</h1>
 </div>
 
 
@@ -137,39 +137,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Question 1: What gene is commonly targeted for bacterial community profiling?</strong></p>
+<p><strong>Question 1: What are the differences between alpha and beta diversity?</strong></p>
 <div class="{=html}">
 <form id="q1">
-<input type="radio" name="q1" value="a"> A. COI<br> <input type="radio" name="q1" value="b"> B. 18S rRNA<br> <input type="radio" name="q1" value="c"> C. 16S rRNA<br> <input type="radio" name="q1" value="d"> D. ITS<br><br> <button type="button" onclick="checkAnswer('q1','c')">Submit</button>
+<p><input type="radio" name="q1" value="a"> A. Alpha diversity measures species richness across multiple ecosystems, while beta diversity measures genetic variation within a single species. <br> <input type="radio" name="q1" value="b"> B. Alpha diversity measures total global biodiversity, while beta diversity measures local abundance. <br> <input type="radio" name="q1" value="c"> C. Alpha diversity measures diversity within a single community, while beta diversity compares diversity between different communities. <br> <input type="radio" name="q1" value="d"> D. Alpha diversity refers to microbial abundance, while beta diversity refers to microbial function. <br><br></p>
+<button type="button" onclick="checkAnswer('q1','c')">
+Submit
+</button>
 </form>
 <div id="result-q1" style="margin-top:1em;font-weight:bold;">
 
 </div>
 </div>
-<p><strong>Question 2: Which sequencing approach provides the highest functional resolution?</strong></p>
+<p><strong>Question 2: What does Bray Curtis Disimilarity do?</strong></p>
 <div class="{=html}">
 <form id="q2">
-<input type="radio" name="q2" value="a"> A. Short-read 16S rRNA sequencing<br> <input type="radio" name="q2" value="b"> B. Long-read 16S rRNA sequencing<br> <input type="radio" name="q2" value="c"> C. Shotgun metagenomic sequencing<br> <input type="radio" name="q2" value="d"> D. Amplicon-based metatranscriptomics<br><br> <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
+<input type="radio" name="q2" value="a"> A. The phylogenetic distance between microbial species based on evolutionary history. <br> <input type="radio" name="q2" value="b"> B. The richness of species within a single microbial community. <br> <input type="radio" name="q2" value="c"> C. The compositional dissimilarity between two samples based on species abundance data. <br> <input type="radio" name="q2" value="d"> D. The probability that two randomly selected individuals belong to the same species. <br><br> <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
 </form>
 <div id="result-q2" style="margin-top:1em;font-weight:bold;">
 
 </div>
 </div>
-<p><strong>Question 3: What is a key advantage of long-read 16S rRNA sequencing compared to short-read 16S?</strong></p>
+<p><strong>Question 3: I do some Bray Curtis disimilarity analysis based on fly lines from two different substrate samples in the lab, I get a value of 0.8, what does this mean?</strong></p>
 <div class="{=html}">
 <form id="q3">
-<input type="radio" name="q3" value="a"> A. Lower cost per base<br> <input type="radio" name="q3" value="b"> B. Higher taxonomic resolution across the full 16S gene<br> <input type="radio" name="q3" value="c"> C. Faster sequencing speed<br> <input type="radio" name="q3" value="d"> D. Detects RNA viruses<br><br> <button type="button" onclick="checkAnswer('q3','b')">Submit</button>
+<p><input type="radio" name="q3" value="a"> A. The two fly lines microbiotas are nearly identical in composition. <br> <input type="radio" name="q3" value="b"> B. The two samples share exactly 80% of their microbial species. <br> <input type="radio" name="q3" value="c"> C. The two samples are highly dissimilar in microbial community composition. <br></p>
+<button type="button" onclick="checkAnswer('q3','c')">
+Submit
+</button>
 </form>
 <div id="result-q3" style="margin-top:1em;font-weight:bold;">
 
 </div>
 </div>
-<p><strong>Question 4: I took you through a couple of papers in <em>Medfly</em> that have used long-read sequencing. What’s the main issue with these studies?</strong></p>
+<p><strong>Question 4: NMDS is an ordination technique, which is used to visualise similarities or dissimilarities in data. How does it do this?</strong></p>
 <div class="{=html}">
 <form id="q4">
-<input type="radio" name="q4" value="a"> A. The sequencing depth was too high, leading to data redundancy.<br> <input type="radio" name="q4" value="b"> B. Despite using long reads, the taxonomic classifiers couldn’t resolve taxa beyond the genus level.<br> <input type="radio" name="q4" value="c"> C. Long reads introduced large sequencing errors that prevented assembly.<br> <input type="radio" name="q4" value="d"> D. The studies focused only on viral DNA rather than bacterial communities.<br><br> <button type="button" onclick="checkAnswer('q4','b')">Submit</button>
+<input type="radio" name="q4" value="a"> A. It does not preserve actual distances between samples, but instead maintains the rank order of those distances. <br> <input type="radio" name="q4" value="b"> B. It projects samples onto axes that maximise total variance using eigenvectors from a covariance matrix. <br> <input type="radio" name="q4" value="c"> C. It preserves exact pairwise distances by decomposing a distance matrix into principal coordinate axes. <br> <input type="radio" name="q4" value="d"> D. It transforms abundance data into relative percentages and clusters samples based on shared taxa only. <br><br> <button type="button" onclick="checkAnswer('q4','a')">Submit</button>
 </form>
 <div id="result-q4" style="margin-top:1em;font-weight:bold;">
+
+</div>
+</div>
+<p><strong>Question 5: We learnt a bit about Bray Curtis dissimiliarity, how does this relate to NMDS?</strong></p>
+<div class="{=html}">
+<form id="q5">
+<p><input type="radio" name="q5" value="a"> A. Bray–Curtis calculates phylogenetic relationships between microbes, which NMDS then uses to cluster samples. <br> <input type="radio" name="q5" value="b"> B. NMDS requires Euclidean distances, so Bray–Curtis must first convert abundances into presence/absence. <br> <input type="radio" name="q5" value="c"> C. Bray–Curtis measures compositional dissimilarity between samples, and NMDS uses these dissimilarities to visualise differences in low-dimensional space. <br> <input type="radio" name="q5" value="d"> D. Bray–Curtis computes alpha diversity for each sample, which NMDS then projects onto axes to show individual sample diversity. <br><br></p>
+<button type="button" onclick="checkAnswer('q5','c')">
+Submit
+</button>
+</form>
+<div id="result-q5" style="margin-top:1em;font-weight:bold;">
+
+</div>
+</div>
+<p><strong>Question 6: If we want to run NMDS in R, we use <code>metaMDS()</code>. What are the main components?</strong></p>
+<div class="{=html}">
+<form id="q6">
+<input type="radio" name="q6" value="a"> A. <code>k</code> sets the number of random iterations, and <code>distance</code> chooses the method for standardizing alpha diversity. <br> <input type="radio" name="q6" value="b"> B. <code>k</code> specifies the number of microbial taxa to include, and <code>distance</code> sets the physical distance between samples in the lab. <br> <input type="radio" name="q6" value="c"> C. <code>k</code> sets the number of NMDS dimensions (axes), and <code>distance</code> specifies the dissimilarity metric used to calculate the distance matrix (e.g., <code>"bray"</code>). <br> <input type="radio" name="q6" value="d"> D. <code>k</code> defines the number of principal components, and <code>distance</code> calculates Euclidean distance for alpha diversity. <br><br> <button type="button" onclick="checkAnswer('q6','c')">Submit</button>
+</form>
+<div id="result-q6" style="margin-top:1em;font-weight:bold;">
 
 </div>
 </div>
@@ -178,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <script>
 let score = 0;
-let total = 4; // total number of questions
+let total = 6; // total number of questions
 let answered = {}; // track which questions have been answered to avoid double scoring
 
 function checkAnswer(id, correct) {
@@ -186,13 +213,13 @@ function checkAnswer(id, correct) {
   const result = document.getElementById(`result-${id}`);
 
   if (!answer) {
-    result.textContent = "⚠️ Please select an answer.";
+    result.textContent = "Please select an answer.";
     result.style.color = "orange";
     return;
   }
 
   if (answered[id]) {
-    result.textContent = "ℹ️ You’ve already answered this question.";
+    result.textContent = "You’ve already answered this question.";
     result.style.color = "gray";
     return;
   }

@@ -1,5 +1,5 @@
 ---
-title: "Host microbe symbioses in pest insects Lab Meeting 2026" 
+title: Host microbe symbioses in pest insects - Lab Meeting 2026 
 ---
 
 ## Introduction
@@ -14,7 +14,7 @@ The winning team gets... something.
 
 -   Please don't click any of the quiz question tabs until it is time to do the quiz.
 
--    When you are in the multiple choice, please only try once, once you have submitted do not try again.
+-   When you are in the multiple choice, please only try once, once you have submitted do not try again.
 
 -   Do not leave or refresh the page, you will lose your score.
 
