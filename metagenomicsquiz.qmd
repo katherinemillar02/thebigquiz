@@ -4,60 +4,75 @@ format: html
 ---
 
 
-**Question 1: What gene is commonly targeted for bacterial community profiling?**
+**Question 1: What are the differences between alpha and beta diversity?**
 
 ::: {=html}
 <form id="q1">
-  <input type="radio" name="q1" value="a"> A. COI<br>
-  <input type="radio" name="q1" value="b"> B. 18S rRNA<br>
-  <input type="radio" name="q1" value="c"> C. 16S rRNA<br>
-  <input type="radio" name="q1" value="d"> D. ITS<br><br>
+  <input type="radio" name="q1" value="a"> A. <br>
+  <input type="radio" name="q1" value="b"> B. <br>
+  <input type="radio" name="q1" value="c"> C. <br>
+  <input type="radio" name="q1" value="d"> D. <br><br>
   <button type="button" onclick="checkAnswer('q1','c')">Submit</button>
 </form>
 <div id="result-q1" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
-
-**Question 2: Which sequencing approach provides the highest functional resolution?**
+**Question 2: ?**
 
 ::: {=html}
 <form id="q2">
-  <input type="radio" name="q2" value="a"> A. Short-read 16S rRNA sequencing<br>
-  <input type="radio" name="q2" value="b"> B. Long-read 16S rRNA sequencing<br>
-  <input type="radio" name="q2" value="c"> C. Shotgun metagenomic sequencing<br>
-  <input type="radio" name="q2" value="d"> D. Amplicon-based metatranscriptomics<br><br>
+  <input type="radio" name="q2" value="a"> A. <br>
+  <input type="radio" name="q2" value="b"> B. <br>
+  <input type="radio" name="q2" value="c"> C. <br>
+  <input type="radio" name="q2" value="d"> D. <br><br>
   <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
 </form>
 <div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
-
-**Question 3: What is a key advantage of long-read 16S rRNA sequencing compared to short-read 16S?**
+**Question 3: ?**
 
 ::: {=html}
 <form id="q3">
-  <input type="radio" name="q3" value="a"> A. Lower cost per base<br>
-  <input type="radio" name="q3" value="b"> B. Higher taxonomic resolution across the full 16S gene<br>
-  <input type="radio" name="q3" value="c"> C. Faster sequencing speed<br>
-  <input type="radio" name="q3" value="d"> D. Detects RNA viruses<br><br>
-  <button type="button" onclick="checkAnswer('q3','b')">Submit</button>
+  <input type="radio" name="q3" value="a"> A. <br>
+  <input type="radio" name="q3" value="b"> B. <br>
+  <input type="radio" name="q3" value="c"> C. <br>
+  <input type="radio" name="q3" value="d"> D. <br><br>
+  <button type="button" onclick="checkAnswer('q3','c')">Submit</button>
 </form>
 <div id="result-q3" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
 
-**Question 4: I took you through a couple of papers in *Medfly* that have used long-read sequencing. What’s the main issue with these studies?**
+**Question 4: ?**
 
 ::: {=html}
-<form id="q4">
-  <input type="radio" name="q4" value="a"> A. The sequencing depth was too high, leading to data redundancy.<br>
-  <input type="radio" name="q4" value="b"> B. Despite using long reads, the taxonomic classifiers couldn’t resolve taxa beyond the genus level.<br>
-  <input type="radio" name="q4" value="c"> C. Long reads introduced large sequencing errors that prevented assembly.<br>
-  <input type="radio" name="q4" value="d"> D. The studies focused only on viral DNA rather than bacterial communities.<br><br>
-  <button type="button" onclick="checkAnswer('q4','b')">Submit</button>
+<form id="q3">
+  <input type="radio" name="q4" value="a"> A. <br>
+  <input type="radio" name="q4" value="b"> B. <br>
+  <input type="radio" name="q4" value="c"> C. <br>
+  <input type="radio" name="q4" value="d"> D. <br><br>
+  <button type="button" onclick="checkAnswer('q4','c')">Submit</button>
 </form>
 <div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
 :::
+
+
+
+**Question 5: ?**
+
+::: {=html}
+<form id="q3">
+  <input type="radio" name="q5" value="a"> A. <br>
+  <input type="radio" name="q5" value="b"> B. <br>
+  <input type="radio" name="q5" value="c"> C. <br>
+  <input type="radio" name="q5" value="d"> D. <br><br>
+  <button type="button" onclick="checkAnswer('q5','c')">Submit</button>
+</form>
+<div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
+:::
+
+
 
 
 <div id="score" style="margin-top:2em; font-weight:bold; font-size:1.2em;"></div>

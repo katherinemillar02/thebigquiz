@@ -5,14 +5,28 @@ format: html
 
 
 
-**Question 1: In *Ceratitis capitata*, what is one documented benefit of adding *Enterobacteriaceae* to the diet?**
+**Question 1: What are the 3 main components of the Medfly gut?**
+
+::: {=html}
+<form id="q1">
+  <input type="radio" name="q1" value="a"> A.   <br>
+  <input type="radio" name="q1" value="b"> B.  <br>
+  <input type="radio" name="q1" value="c"> C.  <br>
+  <input type="radio" name="q1" value="d"> D.  <br><br>
+  <button type="button" onclick="checkAnswer('q1','b')">Submit</button>
+</form>
+<div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>
+:::
+
+---
+**Question 2: **
 
 ::: {=html}
 <form id="q2">
-  <input type="radio" name="q2" value="a"> A. Decreased lifespan and fertility<br>
-  <input type="radio" name="q2" value="b"> B. Enhanced development and mating success<br>
-  <input type="radio" name="q2" value="c"> C. Increased larval mortality<br>
-  <input type="radio" name="q2" value="d"> D. Reduced nitrogen metabolism<br><br>
+  <input type="radio" name="q2" value="a"> A.   <br>
+  <input type="radio" name="q2" value="b"> B.  <br>
+  <input type="radio" name="q2" value="c"> C.  <br>
+  <input type="radio" name="q2" value="d"> D.  <br><br>
   <button type="button" onclick="checkAnswer('q2','b')">Submit</button>
 </form>
 <div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>
@@ -20,47 +34,50 @@ format: html
 
 ---
 
-**Question 2: Which microbial genera in *Rhagoletis pomonella* are involved in purine degradation?**
+---
+**Question 3: **
 
 ::: {=html}
 <form id="q3">
-  <input type="radio" name="q3" value="a"> A. *Pseudomonas* and *Serratia*<br>
-  <input type="radio" name="q3" value="b"> B. *Enterobacter* and *Klebsiella*<br>
-  <input type="radio" name="q3" value="c"> C. *Lactobacillus* and *Acetobacter*<br>
-  <input type="radio" name="q3" value="d"> D. *Candidatus Erwinia* and *Enterococcus*<br><br>
+  <input type="radio" name="q3" value="a"> A.   <br>
+  <input type="radio" name="q3" value="b"> B.  <br>
+  <input type="radio" name="q3" value="c"> C.  <br>
+  <input type="radio" name="q3" value="d"> D.  <br><br>
   <button type="button" onclick="checkAnswer('q3','b')">Submit</button>
 </form>
-<div id="result-q3" style="margin-top:1em;font-weight:bold;"></div>
+<div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
 ---
 
-**Question 3: What is one challenge faced in the Sterile Insect Technique (SIT) related to microbiota?**
+---
+**Question 4: **
 
 ::: {=html}
 <form id="q4">
-  <input type="radio" name="q4" value="a"> A. Microbes become pathogenic post-irradiation<br>
-  <input type="radio" name="q4" value="b"> B. Irradiation and mass-rearing can disrupt gut microbiota<br>
-  <input type="radio" name="q4" value="c"> C. Sterile males overproduce beneficial bacteria<br>
-  <input type="radio" name="q4" value="d"> D. Female flies reject sterile males due to microbial odour<br><br>
-  <button type="button" onclick="checkAnswer('q4','b')">Submit</button>
+  <input type="radio" name="q4" value="a"> A.   <br>
+  <input type="radio" name="q4" value="b"> B.  <br>
+  <input type="radio" name="q4" value="c"> C.  <br>
+  <input type="radio" name="q4" value="d"> D.  <br><br>
+  <button type="button" onclick="checkAnswer('q3','b')">Submit</button>
 </form>
 <div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
 ---
 
-**Question 4: How might probiotic supplementation improve SIT outcomes?**
+---
+**Question 5: **
 
 ::: {=html}
-<form id="q5">
-  <input type="radio" name="q5" value="a"> A. By increasing stress and mortality rates<br>
-  <input type="radio" name="q5" value="b"> B. By restoring beneficial gut bacteria to enhance fitness<br>
-  <input type="radio" name="q5" value="c"> C. By sterilising females through microbial competition<br>
-  <input type="radio" name="q5" value="d"> D. By reducing energy metabolism efficiency<br><br>
+<form id="q4">
+  <input type="radio" name="q5" value="a"> A.   <br>
+  <input type="radio" name="q5" value="b"> B.  <br>
+  <input type="radio" name="q5" value="c"> C.  <br>
+  <input type="radio" name="q5" value="d"> D.  <br><br>
   <button type="button" onclick="checkAnswer('q5','b')">Submit</button>
 </form>
-<div id="result-q5" style="margin-top:1em;font-weight:bold;"></div>
+<div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
 :::
 
 ---
