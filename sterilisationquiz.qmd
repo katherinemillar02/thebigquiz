@@ -1,5 +1,5 @@
 ---
-title: "2. Surface Sterilisation Quiz"
+title: "Round 2. Surface Sterilisation Quiz"
 format: html
 ---
 
@@ -67,7 +67,7 @@ knitr::include_graphics("vortex.png")
 
 ---
 
-**Question 4: What might happen if we left the fly in the "sterilising" solution for too long?**
+### Question 4: What might happen if we left the fly in the "sterilising" solution for too long?
 
 ```{r, echo=FALSE}
 knitr::include_graphics("crustyfly.png")
@@ -88,7 +88,7 @@ knitr::include_graphics("crustyfly.png")
 
 ---
 
-**Question 5: Scenario: A Medfly has been taken straight from its cage, is then anesthesised and put in liquid nitrogen, and then the -80C. We take this fly from the -80m allow it to thaw, then put it in  sterile PBS for 30 seconds, and repeat this 3x with 3 different sterile PBS washes. We then pick up the fly with sterile forceps and spread it on a sterile LB plate, we leave this plate to incubate. What is likely to grow?**
+### Question 5: Scenario: A Medfly has been taken straight from its cage, is then anesthesised and put in liquid nitrogen, and then the -80C. We take this fly from the -80m allow it to thaw, then put it in  sterile PBS for 30 seconds, and repeat this 3x with 3 different sterile PBS washes. We then pick up the fly with sterile forceps and spread it on a sterile LB plate, we leave this plate to incubate. What is likely to grow? 
 
 ```{r, echo=FALSE}
 knitr::include_graphics("petri.png")

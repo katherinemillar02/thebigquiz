@@ -5,7 +5,7 @@ format: html
 
 
 
-**Question 1: What are the 3 main components of the Medfly gut?**
+### Question 1: What are the 3 main components of the Medfly gut?
 
 ```{r, echo=FALSE}
 knitr::include_graphics("gut.png")
@@ -27,7 +27,7 @@ knitr::include_graphics("gut.png")
 
 
 
-**Question 2: Why would one choose to just sequence the gut and not the whole fly?**
+### Question 2: Why would one choose to just sequence the gut and not the whole fly?
 
 ```{r, echo=FALSE}
 knitr::include_graphics("king.png")
@@ -51,7 +51,7 @@ knitr::include_graphics("king.png")
 :::
 
 
-**Question 3: During Tephritid metamorphosis, what happens to the larval gut?**
+### Question 3: During Tephritid metamorphosis, what happens to the larval gut?
 
 ```{r, echo=FALSE}
 knitr::include_graphics("larvae.png")
@@ -92,7 +92,7 @@ knitr::include_graphics("transmission.png")
 :::
 
 
-**Question 5: Why has horizontal/environmental transmission in Medfly not been directly proven?**
+### Question 5: Why has horizontal/environmental transmission in Medfly not been directly proven?
 
 ```{r, echo=FALSE}
 knitr::include_graphics("klebstrain.png")
