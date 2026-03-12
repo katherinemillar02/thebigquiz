@@ -103,7 +103,7 @@ knitr::include_graphics("baby.png")
 ::: {#score style="margin-top:2em; font-weight:bold; font-size:1.2em;"}
 :::
 
-\`\`\`{=html}
+
 
 ```{=html}
 <script>

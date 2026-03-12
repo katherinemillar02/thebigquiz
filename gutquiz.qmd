@@ -54,7 +54,7 @@ knitr::include_graphics("king.png")
 **Question 3: During Tephritid metamorphosis, what happens to the larval gut?**
 
 ```{r, echo=FALSE}
-knitr::include_graphics("king.png")
+knitr::include_graphics("larvae.png")
 ```
 
 ::: {=html}
@@ -71,8 +71,9 @@ knitr::include_graphics("king.png")
 
 **Question 4: What are the 3 modes of microbial transmission?**
 
+
 ```{r, echo=FALSE}
-knitr::include_graphics("larvae.png")
+knitr::include_graphics("transmission.png")
 ```
 
 ::: {=html}
@@ -94,7 +95,7 @@ knitr::include_graphics("larvae.png")
 **Question 5: Why has horizontal/environmental transmission in Medfly not been directly proven?**
 
 ```{r, echo=FALSE}
-knitr::include_graphics("transmission.png")
+knitr::include_graphics("klebstrain.png")
 ```
 
 
