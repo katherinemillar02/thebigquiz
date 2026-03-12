@@ -73,7 +73,7 @@ knitr::include_graphics("larvae.png")
 
 
 ```{r, echo=FALSE}
-knitr::include_graphics("transmission.png")
+knitr::include_graphics("modes.png")
 ```
 
 ::: {=html}
