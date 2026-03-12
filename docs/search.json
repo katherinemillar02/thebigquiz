@@ -9,9 +9,16 @@
   {
     "objectID": "fliesquiz.html",
     "href": "fliesquiz.html",
-    "title": "1. Fruit Flies Quiz.",
+    "title": "Round 1. Whistle Stop Quiz of Fruit Flies.",
     "section": "",
-    "text": "Question 1: What is the more common family of fruit flies to the public?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n A. Tephritidae   B. Drosophilidiae   C. Drosophilidae   D. Tephritidiae  Submit\n\n\n\n\n\nQuestion 2: What commonly makes Tephritids “bad”?\n\n\n A. They have the highest fitness   B. Being colourful means they are better at being sneaky   C. The females use their ovipositor to lay their eggs in the fruit, where larvae develop   D. They’re bigger than Drosophilia, so they can do more  Submit\n\n\n\n\n\nQuestion 3: What’s the other name for Tephritid flies?\n\n\n A. Peacock flies   B. Parrot flies   C. Rainbow flies   D. Robin flies  Submit\n\n\n\n\n\nQuestion 4: Why are Medflies the “more harsh” Tephritids?\n\n\n A. They have bigger ovipositors .  B. They are more colourful.  C. they travel in packs.  D. They can survive in cooler temperatures compared to other Tephritids. Submit\n\n\n\n\n\nQuestion 5: Where did Medflies originate?\n\n\n A. Africa.  B. Antartica.  C. Brussels.  D. Australia. Submit"
+    "text": "A. Tephritidae   B. Drosophilidiae   C. Drosophilidae   D. Tephritidiae  Submit"
+  },
+  {
+    "objectID": "fliesquiz.html#question-5-where-did-medflies-originate",
+    "href": "fliesquiz.html#question-5-where-did-medflies-originate",
+    "title": "Round 1. Whistle Stop Quiz of Fruit Flies.",
+    "section": "Question 5: Where did Medflies originate?",
+    "text": "Question 5: Where did Medflies originate?\n\n\n\n\n\n\n\n A. Africa.  B. Antartica.  C. Brussels.  D. Australia. Submit\n\n\n\n\n\n\n\n\n```{=html}"
   },
   {
     "objectID": "metagenomicsquiz.html",
@@ -25,14 +32,14 @@
     "href": "index.html",
     "title": "Host microbe symbioses in pest insects - Lab Meeting 2026",
     "section": "",
-    "text": "Hello again, today I will be showing you what I have been doing for my research through a presentation - and I will make it interactive through a mini quiz. This will be on this site.\nYou will be given (or have been given) a randomly selected sticker, either representing a Ceratitis capitata or a Drosophila melanogaster. This is your team, you will answer the multiple choise questions at the end of each quiz these will be added together depending on the team.\nThe winning team gets… something."
+    "text": "Hello again, today I will be showing you what I have been doing for my research through a presentation - and I will make it interactive through a mini quiz. This will be on this site.\nYou will be given (or have been given) a randomly selected sticker, either representing a Ceratitis capitata or a Drosophila melanogaster. This is your team, you will answer the multiple choise questions at the end of each quiz these will be added together depending on the team.\nThere will be prizes for everyone, both the winning team and the runners up! Because everyone is a winner."
   },
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
     "title": "Host microbe symbioses in pest insects - Lab Meeting 2026",
     "section": "",
-    "text": "Hello again, today I will be showing you what I have been doing for my research through a presentation - and I will make it interactive through a mini quiz. This will be on this site.\nYou will be given (or have been given) a randomly selected sticker, either representing a Ceratitis capitata or a Drosophila melanogaster. This is your team, you will answer the multiple choise questions at the end of each quiz these will be added together depending on the team.\nThe winning team gets… something."
+    "text": "Hello again, today I will be showing you what I have been doing for my research through a presentation - and I will make it interactive through a mini quiz. This will be on this site.\nYou will be given (or have been given) a randomly selected sticker, either representing a Ceratitis capitata or a Drosophila melanogaster. This is your team, you will answer the multiple choise questions at the end of each quiz these will be added together depending on the team.\nThere will be prizes for everyone, both the winning team and the runners up! Because everyone is a winner."
   },
   {
     "objectID": "index.html#rules",
@@ -53,6 +60,20 @@
     "href": "sterilisationquiz.html",
     "title": "2. Surface Sterilisation Quiz",
     "section": "",
-    "text": "Question 1: What is surface sterilisation in this context?\n\n\n A. Washing the bench surface in the lab so you don’t contaminate the fly in microbiota experiments.   B. Washing the surface of the fly to remove external microbes   C. Putting fly in bath   D. Washing the outside of the cage which you will collect flies on, to not infect its mcirobiota  Submit\n\n\n\n\n\n\nQuestion 2: What is a difference between bleach and ethanol?\n\n\n A.Ethanol destroys DNA, while bleach leaves DNA intact.   B. Bleach destroys DNA, while ethanol does not destroy DNA.  C.Both bleach and ethanol preserve DNA while killing microbes.   D. Bleach works only on bacteria, ethanol works only on viruses Submit\n\n\n\n\n\n\n\nQuestion 3: How do we (in the Chapman group) give the Medfly a wash?\n\n\n A. Dunk it in ethanol for 1 minute, followed by 3x 30 seconds PBS washes.   B. Dunk it in ethanol for 30 seconds, followed by 3x 30 seconds PBS washes.  C. Dunk it in bleach for 1 minute, followed by 3x 30 seconds PBS washes   D. Dunk it in bleach for 30 seconds, followed by 3x 30 seconds PBS washes. Submit\n\n\n\n\n\n\n\nQuestion 4: What might happen if we left the fly in the “sterilising” solution for too long?\n\n\n A. The fly might wake up and fly away.  B. The fly could become larger and easier to see.  C. The wings might change colour permanently.  D. The fly’s body could become damaged or too fragile to dissect properly. Submit\n\n\n\n\n\n\n\nQuestion 5: Scenario: A Medfly has been taken straight from its cage, is then anesthesised and put in liquid nitrogen, and then the -80C. We take this fly from the -80m allow it to thaw, then put it in sterile PBS for 30 seconds, and repeat this 3x with 3 different sterile PBS washes. We then pick up the fly with sterile forceps and spread it on a sterile LB plate, we leave this plate to incubate. What is likely to grow?\n\n\n A. The plate is likely to grow bacteria but only because there’s bits of fly on it.   B. If the experiment works, then nothing as the fly has been washed.   C. The plate is likely to grow bacteria because the fly has not been washed.  Submit"
+    "text": "A. Washing the bench surface in the lab so you don’t contaminate the fly in microbiota experiments.   B. Washing the surface of the fly to remove external microbes   C. Putting fly in bath   D. Washing the outside of the cage which you will collect flies on, to not infect its mcirobiota  Submit"
+  },
+  {
+    "objectID": "sterilisationquiz.html#question-1-what-is-surface-sterilisation-in-context-i-described",
+    "href": "sterilisationquiz.html#question-1-what-is-surface-sterilisation-in-context-i-described",
+    "title": "2. Surface Sterilisation Quiz",
+    "section": "",
+    "text": "A. Washing the bench surface in the lab so you don’t contaminate the fly in microbiota experiments.   B. Washing the surface of the fly to remove external microbes   C. Putting fly in bath   D. Washing the outside of the cage which you will collect flies on, to not infect its mcirobiota  Submit"
+  },
+  {
+    "objectID": "sterilisationquiz.html#question-2-what-is-a-difference-between-bleach-and-ethanol-for-surface-sterilisation",
+    "href": "sterilisationquiz.html#question-2-what-is-a-difference-between-bleach-and-ethanol-for-surface-sterilisation",
+    "title": "2. Surface Sterilisation Quiz",
+    "section": "Question 2: What is a difference between bleach and ethanol for surface sterilisation?",
+    "text": "Question 2: What is a difference between bleach and ethanol for surface sterilisation?\n\n\n\n\n\n\n\n A.Ethanol destroys DNA, while bleach leaves DNA intact.   B. Bleach destroys DNA, while ethanol does not destroy DNA.  C.Both bleach and ethanol preserve DNA while killing microbes.   D. Bleach works only on bacteria, ethanol works only on viruses Submit\n\n\n\n\n\n\n\nQuestion 3: How do we (in the Chapman group) give the Medfly a wash?\n\n\n A. Dunk it in ethanol for 1 minute, followed by 3x 30 seconds PBS washes.   B. Dunk it in ethanol for 30 seconds, followed by 3x 30 seconds PBS washes.  C. Dunk it in bleach for 1 minute, followed by 3x 30 seconds PBS washes   D. Dunk it in bleach for 30 seconds, followed by 3x 30 seconds PBS washes. Submit\n\n\n\n\n\n\n\nQuestion 4: What might happen if we left the fly in the “sterilising” solution for too long?\n\n\n A. The fly might wake up and fly away.  B. The fly could become larger and easier to see.  C. The wings might change colour permanently.  D. The fly’s body could become damaged or too fragile to dissect properly. Submit\n\n\n\n\n\n\n\nQuestion 5: Scenario: A Medfly has been taken straight from its cage, is then anesthesised and put in liquid nitrogen, and then the -80C. We take this fly from the -80m allow it to thaw, then put it in sterile PBS for 30 seconds, and repeat this 3x with 3 different sterile PBS washes. We then pick up the fly with sterile forceps and spread it on a sterile LB plate, we leave this plate to incubate. What is likely to grow?\n\n\n A. The plate is likely to grow bacteria but only because there’s bits of fly on it.   B. If the experiment works, then nothing as the fly has been washed.   C. The plate is likely to grow bacteria because the fly has not been washed.  Submit"
   }
 ]

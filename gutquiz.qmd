@@ -7,6 +7,10 @@ format: html
 
 **Question 1: What are the 3 main components of the Medfly gut?**
 
+```{r, echo=FALSE}
+knitr::include_graphics("gut.png")
+```
+
 ::: {=html}
 <form id="q1">
   <input type="radio" name="q1" value="a"> A. Proximal, medial, and distal segments.<br>
@@ -24,6 +28,10 @@ format: html
 
 
 **Question 2: Why would one choose to just sequence the gut and not the whole fly?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("king.png")
+```
 
 ::: {=html}
 <form id="q2">
@@ -43,7 +51,11 @@ format: html
 :::
 
 
-**Question 3: During tephritid metamorphosis, what happens to the larval gut?**
+**Question 3: During Tephritid metamorphosis, what happens to the larval gut?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("king.png")
+```
 
 ::: {=html}
 <form id="q3">
@@ -58,6 +70,10 @@ format: html
 
 
 **Question 4: What are the 3 modes of microbial transmission?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("larvae.png")
+```
 
 ::: {=html}
 <form id="q4">
@@ -76,6 +92,11 @@ format: html
 
 
 **Question 5: Why has horizontal/environmental transmission in Medfly not been directly proven?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("transmission.png")
+```
+
 
 ::: {=html}
 <form id="q5">

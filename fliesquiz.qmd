@@ -1,89 +1,109 @@
 ---
-title: "1. Fruit Flies Quiz."
+title: "Round 1. Whistle Stop Quiz of Fruit Flies."
 format: html
 ---
 
+### Question 1: To the normal members of the public. What family do they think of when one says "fruit flies". 
 
-**Question 1: What is the more common family of fruit flies to the public?**
-```{r, out.width="30%", fig.align="left", echo=FALSE}
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE}
 knitr::include_graphics("1.jpg")
 ```
+:::
 
-```{r, out.width="30%", fig.align="left"  , echo=FALSE}
+::: {.column width="50%"}
+```{r, echo=FALSE}
 knitr::include_graphics("2.jpg")
 ```
-
+:::
+:::
 
 ::: {=html}
 <form id="q1">
-  <input type="radio" name="q1" value="a"> A. Tephritidae <br>
-  <input type="radio" name="q1" value="b"> B. Drosophilidiae <br>
-  <input type="radio" name="q1" value="c"> C. Drosophilidae <br>
-  <input type="radio" name="q1" value="d"> D. Tephritidiae <br><br>
-  <button type="button" onclick="checkAnswer('q1','a')">Submit</button>
+
+<input type="radio" name="q1" value="a"> A. Tephritidae <br> <input type="radio" name="q1" value="b"> B. Drosophilidiae <br> <input type="radio" name="q1" value="c"> C. Drosophilidae <br> <input type="radio" name="q1" value="d"> D. Tephritidiae <br><br> <button type="button" onclick="checkAnswer('q1','a')">Submit</button>
+
 </form>
-<div id="result-q1" style="margin-top:1em;font-weight:bold;"></div>
+
+::: {#result-q1 style="margin-top:1em;font-weight:bold;"}
+:::
 :::
 
+### Question 2: What commonly makes Tephritids "bad"?
 
-**Question 2: What commonly makes Tephritids "bad"?**
+```{r, echo=FALSE}
+knitr::include_graphics("naught.png")
+```
 
 ::: {=html}
 <form id="q2">
-  <input type="radio" name="q2" value="a"> A. They have the highest fitness <br>
-  <input type="radio" name="q2" value="b"> B. Being colourful means they are better at being sneaky <br>
-  <input type="radio" name="q2" value="c"> C. The females use their ovipositor to lay their eggs in the fruit, where larvae develop <br>
-  <input type="radio" name="q2" value="d"> D. They're bigger than *Drosophilia*, so they can do more <br><br>
-  <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
+
+<input type="radio" name="q2" value="a"> A. They have the highest fitness <br> <input type="radio" name="q2" value="b"> B. Being colourful means they are better at being sneaky <br> <input type="radio" name="q2" value="c"> C. The females use their ovipositor to lay their eggs in the fruit, where larvae develop <br> <input type="radio" name="q2" value="d"> D. They're bigger than *Drosophilia*, so they can do more <br><br> <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
+
 </form>
-<div id="result-q2" style="margin-top:1em;font-weight:bold;"></div>
+
+::: {#result-q2 style="margin-top:1em;font-weight:bold;"}
+:::
 :::
 
+### Question 3: What's the other name for Tephritid flies?
 
-**Question 3: What's the other name for Tephritid flies?**
+```{r, echo=FALSE}
+knitr::include_graphics("peacock.png")
+```
 
 ::: {=html}
 <form id="q3">
-  <input type="radio" name="q3" value="a"> A. Peacock flies <br>
-  <input type="radio" name="q3" value="b"> B. Parrot flies <br>
-  <input type="radio" name="q3" value="c"> C. Rainbow flies <br>
-  <input type="radio" name="q3" value="d"> D. Robin flies <br><br>
-  <button type="button" onclick="checkAnswer('q3','a')">Submit</button>
+
+<input type="radio" name="q3" value="a"> A. Peacock flies <br> <input type="radio" name="q3" value="b"> B. Parrot flies <br> <input type="radio" name="q3" value="c"> C. Rainbow flies <br> <input type="radio" name="q3" value="d"> D. Robin flies <br><br> <button type="button" onclick="checkAnswer('q3','a')">Submit</button>
+
 </form>
-<div id="result-q3" style="margin-top:1em;font-weight:bold;"></div>
+
+::: {#result-q3 style="margin-top:1em;font-weight:bold;"}
+:::
 :::
 
+### Question 4: Why are Medflies the "more harsh" Tephritids?
 
-**Question 4: Why are Medflies the "more harsh" Tephritids?**
+```{r, echo=FALSE}
+knitr::include_graphics("worsttephritid.png")
+```
+
 
 ::: {=html}
 <form id="q4">
-  <input type="radio" name="q4" value="a"> A. They have bigger ovipositors .<br>
-  <input type="radio" name="q4" value="b"> B. They are more colourful.<br>
-  <input type="radio" name="q4" value="c"> C. they travel in packs.<br>
-  <input type="radio" name="q4" value="d"> D. They can survive in cooler temperatures compared to other Tephritids.<br><br>
-  <button type="button" onclick="checkAnswer('q4','d')">Submit</button>
+
+<input type="radio" name="q4" value="a"> A. They have bigger ovipositors.<br> <input type="radio" name="q4" value="b"> B. They are more colourful.<br> <input type="radio" name="q4" value="c"> C. They travel in packs.<br> <input type="radio" name="q4" value="d"> D. They can survive in cooler temperatures compared to other Tephritids.<br><br> <button type="button" onclick="checkAnswer('q4','d')">Submit</button>
+
 </form>
-<div id="result-q4" style="margin-top:1em;font-weight:bold;"></div>
+
+::: {#result-q4 style="margin-top:1em;font-weight:bold;"}
+:::
 :::
 
+## Question 5: Where did Medflies originate?
 
-**Question 5: Where did Medflies originate?**
+```{r, echo=FALSE}
+knitr::include_graphics("baby.png")
+```
+
 
 ::: {=html}
 <form id="q5">
-  <input type="radio" name="q5" value="a"> A. Africa.<br>
-  <input type="radio" name="q5" value="b"> B. Antartica.<br>
-  <input type="radio" name="q5" value="c"> C. Brussels.<br>
-  <input type="radio" name="q5" value="d"> D. Australia.<br><br>
-  <button type="button" onclick="checkAnswer('q5','a')">Submit</button>
+
+<input type="radio" name="q5" value="a"> A. Africa.<br> <input type="radio" name="q5" value="b"> B. Antartica.<br> <input type="radio" name="q5" value="c"> C. Brussels.<br> <input type="radio" name="q5" value="d"> D. Australia.<br><br> <button type="button" onclick="checkAnswer('q5','a')">Submit</button>
+
 </form>
-<div id="result-q5" style="margin-top:1em;font-weight:bold;"></div>
+
+::: {#result-q5 style="margin-top:1em;font-weight:bold;"}
+:::
 :::
 
+::: {#score style="margin-top:2em; font-weight:bold; font-size:1.2em;"}
+:::
 
-
-<div id="score" style="margin-top:2em; font-weight:bold; font-size:1.2em;"></div>
+\`\`\`{=html}
 
 ```{=html}
 <script>
@@ -120,3 +140,4 @@ function checkAnswer(id, correct) {
   document.getElementById("score").textContent = `Current Score: ${score}/${total}`;
 }
 </script>
+```

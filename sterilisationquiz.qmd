@@ -3,7 +3,12 @@ title: "2. Surface Sterilisation Quiz"
 format: html
 ---
 
-**Question 1: What is surface sterilisation in this context?**
+## Question 1: What is surface sterilisation in context I described?
+
+```{r, echo=FALSE}
+knitr::include_graphics("flybath.png")
+```
+
 
 ::: {=html}
 <form id="q1">
@@ -18,7 +23,12 @@ format: html
 
 ---
 
-**Question 2: What is a difference between bleach and ethanol?**
+## Question 2: What is a difference between bleach and ethanol for surface sterilisation?
+
+```{r, echo=FALSE}
+knitr::include_graphics("race.png")
+```
+
 
 ::: {=html}
 <form id="q2">
@@ -37,6 +47,11 @@ format: html
 
 **Question 3: How do we (in the Chapman group) give the Medfly a wash?**
 
+
+```{r, echo=FALSE}
+knitr::include_graphics("vortex.png")
+```
+
 ::: {=html}
 <form id="q3">
   <input type="radio" name="q3" value="a"> A. Dunk it in ethanol for 1 minute, followed by 3x 30 seconds PBS washes. <br>
@@ -54,6 +69,10 @@ format: html
 
 **Question 4: What might happen if we left the fly in the "sterilising" solution for too long?**
 
+```{r, echo=FALSE}
+knitr::include_graphics("crustyfly.png")
+```
+
 ::: {=html}
 <form id="q4">
   <input type="radio" name="q4" value="a"> A. The fly might wake up and fly away.<br>
@@ -70,6 +89,10 @@ format: html
 ---
 
 **Question 5: Scenario: A Medfly has been taken straight from its cage, is then anesthesised and put in liquid nitrogen, and then the -80C. We take this fly from the -80m allow it to thaw, then put it in  sterile PBS for 30 seconds, and repeat this 3x with 3 different sterile PBS washes. We then pick up the fly with sterile forceps and spread it on a sterile LB plate, we leave this plate to incubate. What is likely to grow?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("petri.png")
+```
 
 ::: {=html}
 <form id="q5">
