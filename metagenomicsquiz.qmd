@@ -6,6 +6,14 @@ format: html
 
 **Question 1: What are the differences between alpha and beta diversity?**
 
+```{r, echo=FALSE}
+knitr::include_graphics("ALPHA.png")
+```
+```{r, echo=FALSE}
+knitr::include_graphics("BETA.png")
+```
+
+
 ::: {=html}
 <form id="q1">
   <input type="radio" name="q1" value="a">
@@ -24,6 +32,11 @@ format: html
 
 **Question 2: What does Bray Curtis Disimilarity do?**
 
+```{r, echo=FALSE}
+knitr::include_graphics("mathsanalysis.png")
+```
+
+
 ::: {=html}
 <form id="q2">
   <input type="radio" name="q2" value="a">
@@ -40,6 +53,11 @@ format: html
 :::
 
 **Question 3: I do some Bray Curtis disimilarity analysis based on fly lines from two different substrate samples in the lab, I get a value of 0.8, what does this mean?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("brayvalue.png")
+```
+
 
 ::: {=html}
 <form id="q3">
@@ -58,6 +76,10 @@ format: html
 
 
 **Question 4: NMDS is an ordination technique, which is used to visualise similarities or dissimilarities in data. How does it do this?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("NMDS5.png")
+```
 
 ::: {=html}
 <form id="q4">
@@ -78,6 +100,11 @@ format: html
 
 
 **Question 5: We learnt a bit about Bray Curtis dissimiliarity, how does this relate to NMDS?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("confusion.png")
+```
+
 
 ::: {=html}
 <form id="q5">
@@ -101,6 +128,10 @@ format: html
 
 
 **Question 6: If we want to run NMDS in R, we use `metaMDS()`. What are the main components?**
+
+```{r, echo=FALSE}
+knitr::include_graphics("confusion.png")
+```
 
 ::: {=html}
 <form id="q6">
