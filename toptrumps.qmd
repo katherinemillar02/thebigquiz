@@ -3,6 +3,7 @@ title: "Round 5. Top Trumps!! "
 format: html
 ---
 
+We will now play top trumps * cool emoji *.
 
 ```{r, echo=FALSE}
 knitr::include_graphics("toptrumps.png")
