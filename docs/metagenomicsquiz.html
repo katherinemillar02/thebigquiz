@@ -102,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./metagenomicsquiz.html" rel="" target="" aria-current="page">
  <span class="menu-text">4. Microbial Analysis Quiz.</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./toptrumps.html" rel="" target="">
+ <span class="menu-text">5. Top Trumps.</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -138,6 +142,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><strong>Question 1: What are the differences between alpha and beta diversity?</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="ALPHA.png" class="img-fluid" width="363"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="BETA.png" class="img-fluid" width="360"></p>
+</div>
+</div>
 <div class="{=html}">
 <form id="q1">
 <p><input type="radio" name="q1" value="a"> A. Alpha diversity measures species richness across multiple ecosystems, while beta diversity measures genetic variation within a single species. <br> <input type="radio" name="q1" value="b"> B. Alpha diversity measures total global biodiversity, while beta diversity measures local abundance. <br> <input type="radio" name="q1" value="c"> C. Alpha diversity measures diversity within a single community, while beta diversity compares diversity between different communities. <br> <input type="radio" name="q1" value="d"> D. Alpha diversity refers to microbial abundance, while beta diversity refers to microbial function. <br><br></p>
@@ -150,6 +164,11 @@ Submit
 </div>
 </div>
 <p><strong>Question 2: What does Bray Curtis Disimilarity do?</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="mathsanalysis.png" class="img-fluid" width="442"></p>
+</div>
+</div>
 <div class="{=html}">
 <form id="q2">
 <input type="radio" name="q2" value="a"> A. The phylogenetic distance between microbial species based on evolutionary history. <br> <input type="radio" name="q2" value="b"> B. The richness of species within a single microbial community. <br> <input type="radio" name="q2" value="c"> C. The compositional dissimilarity between two samples based on species abundance data. <br> <input type="radio" name="q2" value="d"> D. The probability that two randomly selected individuals belong to the same species. <br><br> <button type="button" onclick="checkAnswer('q2','c')">Submit</button>
@@ -159,6 +178,11 @@ Submit
 </div>
 </div>
 <p><strong>Question 3: I do some Bray Curtis disimilarity analysis based on fly lines from two different substrate samples in the lab, I get a value of 0.8, what does this mean?</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="brayvalue.png" class="img-fluid" width="1000"></p>
+</div>
+</div>
 <div class="{=html}">
 <form id="q3">
 <p><input type="radio" name="q3" value="a"> A. The two fly lines microbiotas are nearly identical in composition. <br> <input type="radio" name="q3" value="b"> B. The two samples share exactly 80% of their microbial species. <br> <input type="radio" name="q3" value="c"> C. The two samples are highly dissimilar in microbial community composition. <br></p>
@@ -171,6 +195,11 @@ Submit
 </div>
 </div>
 <p><strong>Question 4: NMDS is an ordination technique, which is used to visualise similarities or dissimilarities in data. How does it do this?</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="NMDS5.png" class="img-fluid" width="1122"></p>
+</div>
+</div>
 <div class="{=html}">
 <form id="q4">
 <input type="radio" name="q4" value="a"> A. It does not preserve actual distances between samples, but instead maintains the rank order of those distances. <br> <input type="radio" name="q4" value="b"> B. It projects samples onto axes that maximise total variance using eigenvectors from a covariance matrix. <br> <input type="radio" name="q4" value="c"> C. It preserves exact pairwise distances by decomposing a distance matrix into principal coordinate axes. <br> <input type="radio" name="q4" value="d"> D. It transforms abundance data into relative percentages and clusters samples based on shared taxa only. <br><br> <button type="button" onclick="checkAnswer('q4','a')">Submit</button>
@@ -180,6 +209,11 @@ Submit
 </div>
 </div>
 <p><strong>Question 5: We learnt a bit about Bray Curtis dissimiliarity, how does this relate to NMDS?</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="confusion.png" class="img-fluid" width="1000"></p>
+</div>
+</div>
 <div class="{=html}">
 <form id="q5">
 <p><input type="radio" name="q5" value="a"> A. Bray–Curtis calculates phylogenetic relationships between microbes, which NMDS then uses to cluster samples. <br> <input type="radio" name="q5" value="b"> B. NMDS requires Euclidean distances, so Bray–Curtis must first convert abundances into presence/absence. <br> <input type="radio" name="q5" value="c"> C. Bray–Curtis measures compositional dissimilarity between samples, and NMDS uses these dissimilarities to visualise differences in low-dimensional space. <br> <input type="radio" name="q5" value="d"> D. Bray–Curtis computes alpha diversity for each sample, which NMDS then projects onto axes to show individual sample diversity. <br><br></p>
@@ -192,6 +226,11 @@ Submit
 </div>
 </div>
 <p><strong>Question 6: If we want to run NMDS in R, we use <code>metaMDS()</code>. What are the main components?</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="confusion.png" class="img-fluid" width="1000"></p>
+</div>
+</div>
 <div class="{=html}">
 <form id="q6">
 <input type="radio" name="q6" value="a"> A. <code>k</code> sets the number of random iterations, and <code>distance</code> chooses the method for standardizing alpha diversity. <br> <input type="radio" name="q6" value="b"> B. <code>k</code> specifies the number of microbial taxa to include, and <code>distance</code> sets the physical distance between samples in the lab. <br> <input type="radio" name="q6" value="c"> C. <code>k</code> sets the number of NMDS dimensions (axes), and <code>distance</code> specifies the dissimilarity metric used to calculate the distance matrix (e.g., <code>"bray"</code>). <br> <input type="radio" name="q6" value="d"> D. <code>k</code> defines the number of principal components, and <code>distance</code> calculates Euclidean distance for alpha diversity. <br><br> <button type="button" onclick="checkAnswer('q6','c')">Submit</button>

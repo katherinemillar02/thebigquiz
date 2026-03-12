@@ -19,6 +19,9 @@ website:
         href: gutquiz.qmd
       - text: "4. Microbial Analysis Quiz."
         href: metagenomicsquiz.qmd 
+      - text: "5. Top Trumps."
+        href: toptrumps.qmd 
+
 
           
           
